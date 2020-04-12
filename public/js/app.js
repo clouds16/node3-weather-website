@@ -33,6 +33,8 @@ weatherform.addEventListener('submit', (e)=>{
         } else {
             message1.textContent = data.location;
             message2.textContent = data.forecast;
+
+            //some message
             console.log(data.location);
             console.log(data.forecast)
         }
@@ -43,3 +45,4 @@ weatherform.addEventListener('submit', (e)=>{
 
     console.log(location);
 })
+
